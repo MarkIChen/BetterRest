@@ -9,8 +9,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var stepAmount = 8.0
+    
     var body: some View {
-        Text("Hello, World!")
+        Stepper(value: $stepAmount, in: 8...12, step: 0.25) {
+            Text("\(stepAmount, specifier: "%g") hours")
+        }
     }
 }
 
