@@ -10,12 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var stepAmount = 8.0
+    @State private var wakeup = Date()
     
     var body: some View {
-        Stepper(value: $stepAmount, in: 8...12, step: 0.25) {
-            Text("\(stepAmount, specifier: "%g") hours")
-        }
+        DatePicker("Please enter a date", selection: $wakeup, in: Date()...).labelsHidden()
     }
 }
 
