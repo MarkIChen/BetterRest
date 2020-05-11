@@ -15,6 +15,7 @@
 		0A971003243A1732006F8AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A971001243A1732006F8AC4 /* LaunchScreen.storyboard */; };
 		0A97100E243A1732006F8AC4 /* BetterRestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A97100D243A1732006F8AC4 /* BetterRestTests.swift */; };
 		0A971019243A1732006F8AC4 /* BetterRestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A971018243A1732006F8AC4 /* BetterRestUITests.swift */; };
+		0AA9621D245FFB64008FF7AB /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9621C245FFB64008FF7AB /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0A971014243A1732006F8AC4 /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A971018243A1732006F8AC4 /* BetterRestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITests.swift; sourceTree = "<group>"; };
 		0A97101A243A1732006F8AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA9621C245FFB64008FF7AB /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				0A970FFC243A1732006F8AC4 /* Assets.xcassets */,
 				0A971001243A1732006F8AC4 /* LaunchScreen.storyboard */,
 				0A971004243A1732006F8AC4 /* Info.plist */,
+				0AA9621C245FFB64008FF7AB /* SleepCalculator.mlmodel */,
 				0A970FFE243A1732006F8AC4 /* Preview Content */,
 			);
 			path = BetterRest;
@@ -270,6 +273,7 @@
 				0A970FF7243A172D006F8AC4 /* AppDelegate.swift in Sources */,
 				0A970FF9243A172D006F8AC4 /* SceneDelegate.swift in Sources */,
 				0A970FFB243A172D006F8AC4 /* ContentView.swift in Sources */,
+				0AA9621D245FFB64008FF7AB /* SleepCalculator.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
